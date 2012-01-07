@@ -13,6 +13,14 @@
 		2BDAEF0514B8C45500531A9F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAEF0314B8C45500531A9F /* Credits.rtf */; };
 		2BDAEF0814B8C45500531A9F /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEF0714B8C45500531A9F /* RCAppDelegate.m */; };
 		2BDAEF0B14B8C45600531A9F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAEF0914B8C45600531A9F /* MainMenu.xib */; };
+		2BDAEF1A14B8C47200531A9F /* gistfile3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEF1214B8C47200531A9F /* gistfile3.m */; };
+		2BDAEF1B14B8C47200531A9F /* gistfile4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEF1314B8C47200531A9F /* gistfile4.m */; };
+		2BDAEF1C14B8C47200531A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEF1414B8C47200531A9F /* main.m */; };
+		2BDAEF1D14B8C47200531A9F /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEF1614B8C47200531A9F /* NSObject+SPInvocationGrabbing.m */; };
+		2BDAEF1E14B8C47200531A9F /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEF1814B8C47200531A9F /* SPMediaKeyTap.m */; };
+		2BDAEF1F14B8C47200531A9F /* SPMediaKeyTapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEF1914B8C47200531A9F /* SPMediaKeyTapDelegate.m */; };
+		2BDAEF2614B8C69500531A9F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDAEF2514B8C69500531A9F /* Carbon.framework */; };
+		2BDAEF2814B8C8C300531A9F /* iTunesFader.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAEF2714B8C8C300531A9F /* iTunesFader.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +29,24 @@
 		2BDAEEF714B8C45400531A9F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2BDAEEF814B8C45400531A9F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2BDAEEF914B8C45400531A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2BDAEEFC14B8C45500531A9F /* iTunesFader-Info.plist */ = {isa = PBXFileReference; path = "iTunesFader-Info.plist"; sourceTree = "<group>"; };
+		2BDAEEFC14B8C45500531A9F /* iTunesFader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesFader-Info.plist"; sourceTree = "<group>"; };
 		2BDAEEFE14B8C45500531A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2BDAEF0014B8C45500531A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BDAEF0214B8C45500531A9F /* iTunesFader-Prefix.pch */ = {isa = PBXFileReference; path = "iTunesFader-Prefix.pch"; sourceTree = "<group>"; };
+		2BDAEF0214B8C45500531A9F /* iTunesFader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesFader-Prefix.pch"; sourceTree = "<group>"; };
 		2BDAEF0414B8C45500531A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2BDAEF0614B8C45500531A9F /* RCAppDelegate.h */ = {isa = PBXFileReference; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		2BDAEF0614B8C45500531A9F /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
 		2BDAEF0714B8C45500531A9F /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
 		2BDAEF0A14B8C45600531A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2BDAEF1214B8C47200531A9F /* gistfile3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gistfile3.m; sourceTree = "<group>"; };
+		2BDAEF1314B8C47200531A9F /* gistfile4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gistfile4.m; sourceTree = "<group>"; };
+		2BDAEF1414B8C47200531A9F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BDAEF1514B8C47200531A9F /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = "<group>"; };
+		2BDAEF1614B8C47200531A9F /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = "<group>"; };
+		2BDAEF1714B8C47200531A9F /* SPMediaKeyTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
+		2BDAEF1814B8C47200531A9F /* SPMediaKeyTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMediaKeyTap.m; sourceTree = "<group>"; };
+		2BDAEF1914B8C47200531A9F /* SPMediaKeyTapDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMediaKeyTapDelegate.m; sourceTree = "<group>"; };
+		2BDAEF2514B8C69500531A9F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		2BDAEF2714B8C8C300531A9F /* iTunesFader.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesFader.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDAEF2614B8C69500531A9F /* Carbon.framework in Frameworks */,
 				2BDAEEF514B8C45400531A9F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +82,7 @@
 		2BDAEEF314B8C45400531A9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2BDAEF2514B8C69500531A9F /* Carbon.framework */,
 				2BDAEEF414B8C45400531A9F /* Cocoa.framework */,
 				2BDAEEF614B8C45400531A9F /* Other Frameworks */,
 			);
@@ -82,9 +102,11 @@
 		2BDAEEFA14B8C45400531A9F /* iTunesFader */ = {
 			isa = PBXGroup;
 			children = (
+				2BDAEF2014B8C47800531A9F /* RequiredMediaStuffs */,
 				2BDAEF0614B8C45500531A9F /* RCAppDelegate.h */,
 				2BDAEF0714B8C45500531A9F /* RCAppDelegate.m */,
 				2BDAEF0914B8C45600531A9F /* MainMenu.xib */,
+				2BDAEF2714B8C8C300531A9F /* iTunesFader.scpt */,
 				2BDAEEFB14B8C45500531A9F /* Supporting Files */,
 			);
 			path = iTunesFader;
@@ -100,6 +122,29 @@
 				2BDAEF0314B8C45500531A9F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BDAEF1114B8C47200531A9F /* SPInvocationGrabbing */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAEF1214B8C47200531A9F /* gistfile3.m */,
+				2BDAEF1314B8C47200531A9F /* gistfile4.m */,
+				2BDAEF1414B8C47200531A9F /* main.m */,
+				2BDAEF1514B8C47200531A9F /* NSObject+SPInvocationGrabbing.h */,
+				2BDAEF1614B8C47200531A9F /* NSObject+SPInvocationGrabbing.m */,
+			);
+			path = SPInvocationGrabbing;
+			sourceTree = "<group>";
+		};
+		2BDAEF2014B8C47800531A9F /* RequiredMediaStuffs */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAEF1114B8C47200531A9F /* SPInvocationGrabbing */,
+				2BDAEF1714B8C47200531A9F /* SPMediaKeyTap.h */,
+				2BDAEF1814B8C47200531A9F /* SPMediaKeyTap.m */,
+				2BDAEF1914B8C47200531A9F /* SPMediaKeyTapDelegate.m */,
+			);
+			name = RequiredMediaStuffs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +201,7 @@
 				2BDAEEFF14B8C45500531A9F /* InfoPlist.strings in Resources */,
 				2BDAEF0514B8C45500531A9F /* Credits.rtf in Resources */,
 				2BDAEF0B14B8C45600531A9F /* MainMenu.xib in Resources */,
+				2BDAEF2814B8C8C300531A9F /* iTunesFader.scpt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +214,12 @@
 			files = (
 				2BDAEF0114B8C45500531A9F /* main.m in Sources */,
 				2BDAEF0814B8C45500531A9F /* RCAppDelegate.m in Sources */,
+				2BDAEF1A14B8C47200531A9F /* gistfile3.m in Sources */,
+				2BDAEF1B14B8C47200531A9F /* gistfile4.m in Sources */,
+				2BDAEF1C14B8C47200531A9F /* main.m in Sources */,
+				2BDAEF1D14B8C47200531A9F /* NSObject+SPInvocationGrabbing.m in Sources */,
+				2BDAEF1E14B8C47200531A9F /* SPMediaKeyTap.m in Sources */,
+				2BDAEF1F14B8C47200531A9F /* SPMediaKeyTapDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +303,7 @@
 		2BDAEF0F14B8C45600531A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTunesFader/iTunesFader-Prefix.pch";
 				INFOPLIST_FILE = "iTunesFader/iTunesFader-Info.plist";
@@ -262,6 +315,7 @@
 		2BDAEF1014B8C45600531A9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTunesFader/iTunesFader-Prefix.pch";
 				INFOPLIST_FILE = "iTunesFader/iTunesFader-Info.plist";

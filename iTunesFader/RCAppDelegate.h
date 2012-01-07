@@ -7,9 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SPMediaKeyTap.h"
 
-@interface RCAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
+@interface RCAppDelegate : NSObject <NSApplicationDelegate> {
+    SPMediaKeyTap *keyTap;
+}
 
 @end
