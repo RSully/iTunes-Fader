@@ -1,0 +1,1 @@
+Small utility that listens to the media key (play/pause action) on Apple keyboards. It fades the volume before performing the default action. Supports both play and pause. Resets volume after so you don't lose place. 
